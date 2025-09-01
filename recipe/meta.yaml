@@ -24,8 +24,9 @@ requirements:
   run:
     - python >={{ python_min }},<3.13
     - boto3 >=1.37.4,<2.0.0
-    - copernicusmarine >=2.1.1
+    - copernicusmarine >=2.2.2
     - click >=8.1.8,<9.0.0
+    - zarr >=3.0
     - __unix
 
 test:
